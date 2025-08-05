@@ -134,7 +134,7 @@ public class WorkList implements RecordList {
 	 * @param int ID
 	 * @return int
 	 */
-	private int find(int ID) {
+	public int find(int ID) {
 		// 引数のIDと同じIDをもつレコードの位置を検索
 		for (int idx = 0; idx < list.size(); idx++) {
 			Work widx = list.get(idx);
@@ -151,7 +151,7 @@ public class WorkList implements RecordList {
 	 * @param int ID
 	 * @return Work
 	 */
-	private Work get(int ID) {
+	public Work get(int ID) {
 		Work w;
 		
 		// 引数のIDと同じIDをもつレコードが存在するらば、そのレコードを返す
