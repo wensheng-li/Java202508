@@ -65,6 +65,7 @@ public class DisplayPersonByTypeStatus extends ConsoleStatus {
 	/**
 	 * getNextStatus
 	 * 次の状態に遷移すること促すためのメッセージの表示
+	 * 
 	 * @param String s
 	 * @return ConsoleStatus
 	 */
