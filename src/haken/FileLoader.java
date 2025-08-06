@@ -5,6 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * FileLoader
+ * フィルを読み込み
+ */
 public class FileLoader {
 	// フィールド
 	private String fileName;
